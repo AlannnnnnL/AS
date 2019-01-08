@@ -1,0 +1,4 @@
+*.js linguist-language=小程序
+*.json linguist-language=小程序
+*.wxml linguist-language=小程序
+*.wxss linguist-language=小程序
