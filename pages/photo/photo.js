@@ -21,7 +21,7 @@ Page({
   chooseImage () {
     let _this = this;
     wx.chooseImage({
-      count: 1,
+      count: 9,
       success(res) {
         // tempFilePath可以作为img标签的src属性显示图片
         let uimgs = _this.data.uploadImgs;
