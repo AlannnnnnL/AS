@@ -7,7 +7,8 @@
     "pages/login/login",
     "pages/register/register",
     "pages/express/express",
-    "pages/mora/mora"
+    "pages/mora/mora",
+    "pages/photo/photo"
   ],
   "window": {
     "backgroundTextStyle": "light",

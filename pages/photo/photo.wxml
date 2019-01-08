@@ -1,0 +1,21 @@
+<!--pages/photo/photo.wxml-->
+<view class="container photo">
+  <button class="sumit-btn" bindtap="submit">提交</button>
+  <view class="upload-btn" bindtap="chooseImage">+</view>
+  <view class="upload">
+    <image class="upload-img" 
+           wx:for="{{uploadImgs}}" 
+           wx:key="{{index}}" 
+           data-img="{{item}}" 
+           src="{{item}}" 
+           bindtap="previewUploadImage"></image>
+  </view>
+  <view class="uploaded">
+    <image class="uploaded-img" 
+           wx:for="{{uploadedImgs}}" 
+           wx:key="{{index}}" 
+           data-img="{{item}}" 
+           src="{{item}}" 
+           bindtap="previewUploadedImage"></image>
+  </view>
+</view>

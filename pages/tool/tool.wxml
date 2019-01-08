@@ -9,5 +9,9 @@
       <image src="../../image/game-black.png" class="item-img"></image>
       <view class="item-txt">小游戏</view>
     </view>
+    <view class="tool-item" bindtap="navigateTo" data-url="../photo/photo">
+      <image src="../../image/photo-black.png" class="item-img"></image>
+      <view class="item-txt">相册</view>
+    </view>
   </view>
 </view>

@@ -1,0 +1,47 @@
+/* pages/photo/photo.wxss */
+.photo {
+  padding: 0 40rpx;
+}
+.sumit-btn {
+  margin-top: 60rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  width: 130rpx;
+  border: 1px solid #000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a0809), to(#afbdc0), color-stop(0.5, #0a0f0b), color-stop(0.5, #6d7673));
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+  color: #eee;
+  text-shadow: 0px -1px 0px #000;
+  font-family: 'HighlandGothicFLFRegular', Impact, 'Arial Black', sans-serif;
+  font-size: 30rpx;
+}
+.upload-btn {
+  margin: 50rpx auto;
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #ccc;
+  color: #fff;
+  line-height: 200rpx;
+  text-align: center;
+  font-size: 130rpx;
+}
+.upload {
+  padding-bottom: 20rpx;
+  border-bottom: 3px solid #000;
+}
+.upload-img {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 10rpx;
+  margin-bottom: 20rpx;
+}
+.uploaded {
+  margin-top: 40rpx;
+  text-align: center;
+}
+.uploaded-img {
+  max-width: 90%;
+  margin-bottom: 40rpx;
+  box-shadow: 0 0 5px #000;
+}
