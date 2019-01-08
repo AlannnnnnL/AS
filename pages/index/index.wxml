@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container index">
+  <swiper autoplay="{{autoplay}}"
+          indicator-dots="{{indicatorDots}}"
+          class="swiper">
+    <swiper-item wx:for="{{swiperImgs}}" wx:key="{{index}}">
+      <image src="{{item}}" class="slide-img"></image>
+    </swiper-item>
+  </swiper>
+  <view class="recommend">
+    <view class="title">
+      <view class="title-left">精品推荐</view>
+      <view class="title-right">MORE</view>
+    </view>
+    <view class="recommend-main">
+      <view class="recommend-item" wx:for="{{recommend}}" wx:key="index">
+        <image src="{{item.imgUrl}}" class="recommend-item-img"></image>
+        <view class="recommend-item-txt">{{item.txt}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="hot">
+    <view class="title">
+      <view class="title-left">热门车型</view>
+      <view class="title-right">MORE</view>
+    </view>
+    <view class="hot-main">
+      <view class="hot-item" wx:for="{{hot}}" wx:key="index">
+        <image src="{{item.imgUrl}}" class="hot-item-img"></image>
+        <view class="hot-item-info">
+          <view class="hot-item-txt">{{item.txt}}</view>
+          <view class="hot-item-detail">{{item.detail}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

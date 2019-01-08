@@ -1,0 +1,84 @@
+/* pages/login/login.wxss */
+.login {
+  background-color: #111;
+  color: #eee;
+}
+.title {
+  text-align: center;
+  padding: 100rpx 0;
+}
+.login-form {
+  margin: 0 auto;
+  width: 80%;
+  height: 400rpx;
+}
+.login-input {
+  height: 90rpx;
+  border: 1px solid #333;
+  border-radius: 30rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+.error-input {
+  border: 0;
+  box-shadow: 0px 0px 7px rgb(189, 21, 21);
+}
+.curr-input {
+  box-shadow: 0px 0px 7px rgba(255, 255, 255, 1);
+}
+.login-input-tip {
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  padding-bottom: 25rpx;
+  color: rgb(189, 21, 21);
+  line-height: 1.5;
+}
+.login-input-tip image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}
+.login-btn {
+  margin: 0 auto;
+  margin-top: 60rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  width: 500rpx;
+  border: 1px solid #000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a0809), to(#afbdc0), color-stop(0.5, #0a0f0b), color-stop(0.5, #6d7673));
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+  color: #eee;
+  text-shadow: 0px -1px 0px #000;
+  font-family: 'HighlandGothicFLFRegular', Impact, 'Arial Black', sans-serif;
+  font-size: 30rpx;
+}
+.login-btn:active {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+.register {
+  margin-top: 100rpx;
+  text-align: center;
+  color: #666;
+  font-size: 32rpx;
+}
+.register-btn {
+  font-weight: bolder;
+  color: #777;
+}
+.wechat {
+  margin-top: 50rpx;
+}
+.wechat-btn {
+  padding: 0;
+  background: 0;
+  width: 150rpx;
+  margin: 0 auto;
+}
+.wechat-img{
+  width: 120rpx;
+  height: 120rpx;
+  border: 1px solid #333;
+  border-radius: 50%;
+  padding: 10rpx;
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tool/tool",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/express/express",
+    "pages/mora/mora"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "AS",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#9B9B9B",
+    "color": "#ccc",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index-gray.png",
+        "selectedIconPath": "image/index-black.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "工具",
+        "iconPath": "image/tool-gray.png",
+        "selectedIconPath": "image/tool-black.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "image/login-gray.png",
+        "selectedIconPath": "image/login-black.png"
+      }
+    ]
+  }
+}

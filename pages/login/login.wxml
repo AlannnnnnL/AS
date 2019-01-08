@@ -1,0 +1,28 @@
+<!--pages/login/login.wxml-->
+<view class="container login">
+  <view class="title">A&S</view>
+  <view class="login-form">
+    <input class="login-input {{currInputNum==1?'curr-input':''}} {{usernameErrorIsHidden?'':'error-input'}}" placeholder="AS ID" 
+           bindfocus="handleFocusUN" bindblur="handleBlurUN" 
+           data-num="1" value="{{username}}"/>
+    <view class="login-input-tip" hidden="{{usernameErrorIsHidden}}">
+      <image src="../../image/warning.png" />
+      {{usernameErrorInfo}}
+    </view>
+    <input class="login-input {{currInputNum==2?'curr-input':''}} {{passwordErrorIsHidden?'':'error-input'}}" 
+           placeholder="密码" password="true"
+           bindfocus="handleFocusPW" bindblur="handleBlurPW" 
+           data-num="2" value="{{password}}"/>
+    <view class="login-input-tip" hidden="{{passwordErrorIsHidden}}">
+      <image src="../../image/warning.png" />
+      {{passwordErrorInfo}}
+    </view>
+  </view>
+  <button class="login-btn" bindtap="handleLogin">登录</button>
+  <view class="register">没有账户？<text class="register-btn" bindtap="handleRegister">注册</text></view>
+  <view class="wechat">
+    <button class="wechat-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      <cover-image class="wechat-img" src="../../image/wechat.png"></cover-image>
+    </button>
+  </view>
+</view>

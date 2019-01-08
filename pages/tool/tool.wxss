@@ -1,0 +1,21 @@
+/* pages/tool/tool.wxss */
+.tool-main {
+  width: 96.5%;
+  margin: 30rpx auto;
+}
+.tool-item {
+  display: inline-block;
+  margin: 20rpx 20rpx;
+  padding: 10rpx 20rpx;
+  width: 140rpx;
+  text-align: center;
+  font-size: 28rpx;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color:#ccc;
+  box-shadow: 0 0 2px #ccc;
+}
+.item-img {
+  width: 100%;
+  height: 100rpx;
+}

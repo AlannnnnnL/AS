@@ -1,0 +1,32 @@
+<!--pages/user/user.wxml-->
+<view class="container user">
+  <image class="top-img" src="../../image/user-bg.png"></image>
+  <view class="title">
+    <view class="title-img">
+      <view class="user-head-img" style="background-image:url('{{avatarUrl}}')"></view>
+    </view>
+    <view class="user-name" bindtap="logout">Alan</view>
+  </view>
+  <view class="list">
+    <view class="item">
+      <i class="iconfont icon-qianqianqian item-left"></i>
+      <text>支付记录</text>
+      <i class="iconfont icon-arrow-right-copy item-right"></i>
+    </view>
+    <view class="item">
+      <i class="iconfont icon-qianbi item-left"></i>
+      <text>我的评测</text>
+      <i class="iconfont icon-arrow-right-copy item-right"></i>
+    </view>
+    <view class="item">
+      <i class="iconfont icon-shoucang item-left"></i>
+      <text>我的收藏</text>
+      <i class="iconfont icon-arrow-right-copy item-right"></i>
+    </view>
+    <view class="item">
+      <i class="iconfont icon-liebiao item-left"></i>
+      <text>我的众测</text>
+      <i class="iconfont icon-arrow-right-copy item-right"></i>
+    </view>
+  </view>
+</view>

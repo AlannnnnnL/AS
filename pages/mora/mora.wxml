@@ -1,0 +1,16 @@
+<!--pages/mora/mora.wxml-->
+<view class="container game">
+  <text class="result-info">你已经获胜了<text>{{winNum}}</text>次</text>
+  <view class="top">
+    <image src="{{topLeftImg}}"></image>
+    <text class="top-info">{{resultTxt}}</text>
+    <image src="{{topRightImg}}"></image>
+  </view>
+  <view class="content">
+    <text class="content-info">出拳吧，少年~</text>
+    <view class="content-img">
+      <image wx:for="{{imgSrcs}}" wx:key="{{index}}" src="{{item}}" bindtap="handlePunch" id="{{index}}"></image>
+    </view>
+    <button class="btn" bindtap="handleAgain">再来！</button>
+  </view>
+</view>

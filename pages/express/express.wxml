@@ -1,0 +1,15 @@
+<!--pages/express/express.wxml-->
+<view class="container express">
+  <picker bindchange="changeShipper" value="{{shipperIndex}}" range="{{shipperArr}}">
+    <view class="picker">快递公司：{{shipperIndex>=0?shipperArr[shipperIndex]:'点击选择快递公司'}}</view>
+  </picker>
+  <input placeholder="请输入查询单号" bindinput="input"/>
+  <button type="primary" bindtap="handleCilck">查询</button>
+  <view class="express-info">
+      <view class="express-item" wx:for="{{expressInfo}}" wx:key="{{index}}" hidden="{{!expressInfo.length>0}}">
+        <view>{{item.AcceptTime}}</view>
+        <view>{{item.AcceptStation}}</view>
+      </view>
+      <view hidden="{{isHiddenNoneInfo}}">暂无快递信息。。</view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+/* pages/express/express.wxss */
+.express {
+  padding: 0 30rpx;
+}
+.picker {
+  margin-top: 30rpx;
+  font-size: 32rpx;
+}
+input {
+  border: 1px solid gray;
+  width: 500rpx;
+  margin: 30rpx 0;
+  padding: 5px;
+  height: 80rpx;
+  border-radius: 20rpx;
+}
+button {
+  margin-top: 60rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  width: 500rpx;
+  border: 1px solid #000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a0809), to(#afbdc0), color-stop(0.5, #0a0f0b), color-stop(0.5, #6d7673));
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+  color: #eee;
+  text-shadow: 0px -1px 0px #000;
+  font-family: 'HighlandGothicFLFRegular', Impact, 'Arial Black', sans-serif;
+  font-size: 30rpx;
+}
+.express-info {
+  font-size: 32rpx;
+  margin-top: 60rpx;
+}
+.express-item {
+  border-bottom: 1px dashed gray;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+}

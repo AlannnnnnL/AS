@@ -1,0 +1,70 @@
+/**index.wxss**/
+.swiper {
+  height: 400rpx;
+}
+.slide-img {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  margin: 30rpx 0;
+  border-left: 3px solid #000;
+}
+.title-left {
+  font-weight: bolder;
+}
+.title-right {
+  font-size: 30rpx;
+}
+.recommend {
+  margin-bottom: 40rpx;
+}
+.recommend-main {
+  padding: 0 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.recommend-item {
+  width: 49%;
+  position: relative;
+  margin-bottom: 15rpx;
+}
+.recommend-item-img {
+  width: 100%;
+  height: 300rpx;
+}
+.recommend-item-txt {
+  text-align: center;
+  line-height: 2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1));
+  font-size: 30rpx;
+  color: #eee;
+}
+.hot-item {
+  margin-bottom: 40rpx;
+}
+.hot-item-img {
+  width: 100%;
+  height: 350rpx;
+}
+.hot-item-info {
+  padding: 20rpx 30rpx;
+}
+.hot-item-txt {
+  font-weight: bolder;
+  font-size: 35rpx;
+  margin-bottom: 15rpx;
+}
+.hot-item-detail {
+  color: #222;
+  font-size: 28rpx;
+}

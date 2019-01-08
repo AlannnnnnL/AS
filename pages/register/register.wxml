@@ -1,0 +1,31 @@
+<!--pages/register/register.wxml-->
+<view class="container register">
+  <view class="title">A&S</view>
+  <view class="form">
+    <input class="input {{currInputNum==1?'curr-input':''}} {{usernameErrorIsHidden?'':'error-input'}}" 
+           placeholder="请输入6-12位的ID" 
+           bindfocus="handleFocus" bindblur="handleBlur" 
+           data-num="1" value="{{username}}"/>
+    <view class="input-tip" hidden="{{usernameErrorIsHidden}}">
+      <image src="../../image/warning.png" />
+      {{usernameErrorInfo}}
+    </view>
+    <input class="input {{currInputNum==2?'curr-input':''}} {{passwordErrorIsHidden?'':'error-input'}}" 
+           placeholder="请输入6-12位的密码" password="true"
+           bindfocus="handleFocus" bindblur="handleBlur" 
+           data-num="2" value="{{password}}"/>
+    <view class="input-tip" hidden="{{passwordErrorIsHidden}}">
+      <image src="../../image/warning.png" />
+      {{passwordErrorInfo}}
+    </view>
+    <input class="input {{currInputNum==3?'curr-input':''}} {{nicknameErrorIsHidden?'':'error-input'}}" 
+           placeholder="请输入2-12位昵称"
+           bindfocus="handleFocus" bindblur="handleBlur" 
+           data-num="3" value="{{nickname}}"/>
+    <view class="input-tip" hidden="{{nicknameErrorIsHidden}}">
+      <image src="../../image/warning.png" />
+      {{nicknameErrorInfo}}
+    </view>
+  </view>
+  <button class="btn" bindtap="handleRegister">注册</button>
+</view>
